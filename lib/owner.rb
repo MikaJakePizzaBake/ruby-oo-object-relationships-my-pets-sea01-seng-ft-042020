@@ -46,6 +46,6 @@ class Owner
   end
   def sell_pets
     #binding.pry
-    self.pets.select {|pets| pets.mood = "nervous" && self.pets = nil}
+    self.pets.select {|pets| pets.mood = "nervous" && pets.owner = nil}
   end
 end
