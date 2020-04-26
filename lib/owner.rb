@@ -18,6 +18,6 @@ class Owner
     self.all.count
   end
   def self.reset_all
-    self.all = []
+    binding.pry
   end
 end
