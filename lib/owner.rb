@@ -27,6 +27,10 @@ class Owner
   def dogs
     Dog.all.select {|dog| dog.owner ==self}
   end
+  def pets
+    dogs
+    cats
+  end
   def buy_cat(cat)
     #binding.pry
     Cat.new(cat,self)
@@ -40,4 +44,6 @@ class Owner
   def feed_cats
     self.cats.select {|cat| cat.mood = "happy"}
   end
+  def sell_pets
+    self.cats
 end
