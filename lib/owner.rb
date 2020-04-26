@@ -31,4 +31,7 @@ class Owner
     #binding.pry
     Cat.new(cat,self)
   end
+  def buy_dog(dog)
+    Dog.new(dog, self)
+  end
 end
