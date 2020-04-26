@@ -48,4 +48,6 @@ class Owner
     #binding.pry
     self.pets.select {|pets| pets.mood = "nervous" ; pets.owner = nil}
   end
+  def list_pets
+  end
 end
