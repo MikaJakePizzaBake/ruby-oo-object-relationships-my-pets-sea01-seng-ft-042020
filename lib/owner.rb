@@ -1,6 +1,7 @@
 class Owner
   # code goes here
-  attr_reader :name, :species
+  attr_reader :species
+  attr_accessor :name
   @@all = []
   def initialize(name)
     @name = name
@@ -15,5 +16,8 @@ class Owner
   end
   def self.count
     self.all.count
+  end
+  def reset_all
+
   end
 end
