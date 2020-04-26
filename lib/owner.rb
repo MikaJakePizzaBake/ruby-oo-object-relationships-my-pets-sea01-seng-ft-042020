@@ -45,7 +45,7 @@ class Owner
     self.cats.select {|cat| cat.mood = "happy"}
   end
   def sell_pets
-    binding.pry
+    #binding.pry
     self.pets.select {|pets| pets.mood = "nervous"}
   end
 end
