@@ -19,6 +19,6 @@ class Owner
   end
   def self.reset_all
     binding.pry
-    self.count
+    self.clear
   end
 end
