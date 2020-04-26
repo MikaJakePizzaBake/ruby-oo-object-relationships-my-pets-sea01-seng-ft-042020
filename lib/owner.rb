@@ -21,4 +21,6 @@ class Owner
     #binding.pry
     @@all.clear
   end
+  def cats
+  end
 end
