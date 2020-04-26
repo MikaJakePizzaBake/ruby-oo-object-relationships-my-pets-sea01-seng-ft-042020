@@ -28,7 +28,7 @@ class Owner
     Dog.all.select {|dog| dog.owner ==self}
   end
   def pets
-    binding.pry
+    #binding.pry
     dogs
     cats
   end
@@ -46,6 +46,7 @@ class Owner
     self.cats.select {|cat| cat.mood = "happy"}
   end
   def sell_pets
+    binding.pry
     self.pets.select {|pets| pets.mood = "nervous"}
   end
 end
