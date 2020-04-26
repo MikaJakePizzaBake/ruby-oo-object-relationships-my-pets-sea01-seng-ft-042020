@@ -29,8 +29,7 @@ class Owner
   end
   def pets
     #binding.pry
-    dogs
-    cats
+    dogs + cats
   end
   def buy_cat(cat)
     #binding.pry
