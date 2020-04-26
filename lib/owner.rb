@@ -49,6 +49,6 @@ class Owner
     self.pets.select {|pets| pets.mood = "nervous" ; pets.owner = nil}
   end
   def list_pets
-    "I have #{dogs} dog(s), and #{cats} cat(s)."
+    "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
   end
 end
