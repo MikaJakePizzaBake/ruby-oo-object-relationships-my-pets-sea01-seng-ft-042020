@@ -29,6 +29,6 @@ class Owner
   end
   def buy_cat(cat)
     #binding.pry
-    Cat.new(name, owner)
+    Cat.new(cat, owner)
   end
 end
