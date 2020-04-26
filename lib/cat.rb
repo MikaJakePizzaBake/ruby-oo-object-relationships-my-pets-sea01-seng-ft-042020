@@ -12,4 +12,6 @@ class Cat
   def self.all
     @@all
   end
+  def cats
+  end
 end
