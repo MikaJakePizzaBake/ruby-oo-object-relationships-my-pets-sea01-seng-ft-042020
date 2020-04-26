@@ -28,6 +28,7 @@ class Owner
     Dog.all.select {|dog| dog.owner ==self}
   end
   def pets
+    binding.pry
     dogs
     cats
   end
